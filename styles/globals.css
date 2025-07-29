@@ -1,26 +1,86 @@
-html,
-body {
-  padding: 0;
+/* -----------CSS Variable---------- */
+:root{
+  --main: #CE1212;
+  --secondry: #eeeeee;
+}
+@media (max-width: 577px) {
+  
+}
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+body{
+  position: relative;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+h1,h2{
+  font-family: "Amatic SC", cursive;
+}
+h1{
+  font-size: 50px;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .container{
+    width: 94%;
+  }
+}
+@media (max-width: 767px) {
+  .container{
+    width: 96%;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+/* Button component */
+.btn{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  background-color: var(--main);
+  width: fit-content;
+  color: #ffff;
+  cursor: pointer;
+}
+
+/* Main heading */
+.mainHeading{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  width: fit-content;
+  opacity: 0.5;
+}
+
+.mainh1{
+  max-width: 415px;
+  text-transform: capitalize;
+  font-family: "Amatic SC", cursive;
+  font-weight: 100;
+}
+.mainh1 strong{
+  color: var(--main);
+  font-family: "Amatic SC", cursive;
+}
+@media (max-width: 767px) {
+  h1{
+    font-size: 30px;
   }
 }
+/* _________________________ */

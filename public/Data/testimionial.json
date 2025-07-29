@@ -1,0 +1,20 @@
+[
+  {
+    "img": "./images/person_1.jpg",
+    "name": "John Doe",
+    "role": "CEO , Founder",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quibusdam praesentium porro sit, libero suscipit sequi, distinctio optio in amet nam quam perspiciatis alias dolor facilis, cumque sint eligendi temporibus"
+  },
+  {
+    "img": "./images/person_2.jpg",
+    "name": "Rob Smith",
+    "role": "Prodect Designer",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quibusdam praesentium porro sit, libero suscipit sequi, distinctio optio in amet nam quam perspiciatis alias dolor facilis, cumque sint eligendi temporibus"
+  },
+  {
+    "img": "./images/person_3.jpg",
+    "name": "James WoodLand",
+    "role": "Designer at Facebook",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quibusdam praesentium porro sit, libero suscipit sequi, distinctio optio in amet nam quam perspiciatis alias dolor facilis, cumque sint eligendi temporibus"
+  }
+]
