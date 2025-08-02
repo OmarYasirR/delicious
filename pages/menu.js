@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 
 
-function menu() {
+function Menu() {
   useEffect(() => {
     window.onscroll = function(){
       window.sessionStorage.setItem('scroll', this.scrollY)
@@ -101,4 +101,4 @@ function menu() {
   );
 }
 
-export default menu;
+export default Menu;

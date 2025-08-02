@@ -49,7 +49,7 @@ const Mail = ({i1, i, category}) => {
       <div className="ing-cont">
         <h2>Ingrediants :</h2>
         {item.ing.map((itm, i) => (
-          <h5>{itm}</h5>
+          <h5 key={i}>{itm}</h5>
         ))}
       </div>
       <style jsx>{`

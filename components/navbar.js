@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdOutlineCancel } from "react-icons/md";
 
-function navbar() {
+function Navbar() {
   const links = [
     { link: "Home", route: "/" },
     { link: "Events", route: "/events" },
@@ -167,4 +167,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;
