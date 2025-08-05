@@ -4,9 +4,6 @@
   "rewrites": [
     { "source": "/custom-path", "destination": "/actual-page" }
   ],
-  "redirects": [
-    { "source": "/old-route", "destination": "/new-route", "statusCode": 301 }
-  ],
   "headers": [
     {
       "source": "/api/(.*)",
