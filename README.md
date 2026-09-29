@@ -2,9 +2,9 @@
 
 
 
-# 🍽️ Cold Delicacies Restaurant Website
+# 🍽️ Delicacies Restaurant Website
 
-Welcome to the official repository for a modern and elegant restaurant website specializing in **cold delicacies**—from refreshing salads and sushi rolls to artisanal gelato and chilled seafood platters.
+Welcome to the official repository for a modern and elegant restaurant website specializing in **delicacies**—from refreshing salads and sushi rolls to artisanal gelato and chilled seafood platters.
 
 ## 🌟 Overview
 
